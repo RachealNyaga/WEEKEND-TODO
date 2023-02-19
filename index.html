@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <div class="todos-wrapper">
+        <h1 class="text-center"> TO-DO</h1>
+
+        <form id="task-form">
+            <button id="submit-new-todo"></button>
+            <br>
+            <input type = "text" id="task-title" required placeholder="Create a new placeholder">
+        </form>
+        <div id= "task-list">
+            <ul id="Uncompleted-tasks"> </ul>
+
+            <ul id= "completed-tasks"></ul>
+        </div>
+
+        <div class="todos-footer">
+            <div class="items-left"></div>
+            <button class="all">All</button>
+            <button class="show-uncompleted">Active</button>
+            <button class="show-completed">Completed</button>
+        </div>
+    </div>
+
+ <script src="Todo.JS"></script>
+</body>
